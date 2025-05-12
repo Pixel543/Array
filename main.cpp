@@ -1,16 +1,11 @@
-//#include "stdafx.h"
-#include <iostream>
-using namespace std;
- 
+#include "array.h"
+
 int main()
 {
-	cout << "Git hello \n";
-
-<<<<<<< HEAD
-=======
-    int num = 1;
-    std::cout << "branch- " << num << std::endl;
-
->>>>>>> testBranch
+    Array user;
+    
+    x = user.getSize();
+    std::cout << x << std::endl;
+    
     return 0;
 }
